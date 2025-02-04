@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4</title>
+    <link rel="stylesheet" href="./Icons/all.min.css">
+    <link rel="stylesheet" href="./Icons/fontawesome.min.css">
+    <link rel="stylesheet" href="./Css/Assg 4.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1.  1000display=swap');
+    </style>
+</head>
+<body>
+    <header>  
+        <div class="flex-img">
+            <img src="./Images/Logo.png" alt="Logo">
+        </div>
+        <div class="flex-h2">
+            <h2>For Individuals</h2>
+        </div>
+        <div class="flex-text">
+            <p>Start benefiting from the wellness experience. For companies looking on increasing productivity, and improving organization wellness.</p>
+        </div>
+    </header>
+    <form action="">
+        <div class="form-wrap">
+            <div class="sofia-sans-label label">
+                <label for="fname">First Name</label>
+                <br>
+                <input type="text" id="fname" name="fname" placeholder="Tolu"> 
+            </div>
+
+            <div class="sofia-sans-label label">
+                <label for="lname">Last Name</label>
+                <br>
+                <input type="text" id="lname" name="lname"> 
+            </div>
+        </div>
+        <div class="form-wrap">
+            <div class="sofia-sans-label label">
+                <label for="gender">Gender</label>
+                <br>
+                <select name="gender" id="">
+                   <option value="Select here">Select Here</option>
+                   <option value="male">Male</option>
+                   <option value="female">Female</option>
+                </select>
+            </div>
+
+            <div class="sofia-sans-label label">
+                <label for="DOB">Date Of Birth</label>
+                <br>
+                <input type="date" id="lname" name="lname" placeholder="Select Here" onclick="(this.type='date')"> 
+                
+            </div>
+        </div>
+
+        <div class="form-wrap">
+            <div class="sofia-sans-label label">
+                <label for="weight">Weight (KG)</label>
+                <br>
+                <input type="text" id="weight" name="weight" placeholder="Enter Weight"> 
+            </div>
+
+            <div class="sofia-sans-label label">
+                <label for="height">Height (CM)</label>
+                <br>
+                <input type="text" id="height" name="height" placeholder="Enter Height Here..">
+            </div>
+        </div>
+        <div class="form-wrap full-wid">
+            <div class="sofia-sans-label label">
+                <label for="lvl">Activity Level</label>
+                <br>
+                <select name="lvl" class="plain">
+                    <option value="Select here">Select Here</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                 </select>
+            </div>
+        </div>
+        <div class="form-wrap">
+            <div class="sofia-sans-label label">
+                <label for="pass">Password</label>
+                <br>
+                <div class="icon">
+                    <input type="password" class="plain" name="pass">
+                    <i class="fa-regular fa-eye"></i>
+                </div>
+            </div>
+        </div>
+        <div class="submit">
+            <button type="submit" class="submit-btn">Register</button>
+        </div>
+        <div class="terms">
+            <p class="text">By clicking Register, you agree to our <span>Terms of Use </span> and our <span>Privacy Policy</span></p>
+        </div>
+    </form>
+</body>
+</html>

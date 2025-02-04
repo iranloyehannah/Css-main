@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+   
+}
+html{
+    background-color: white;
+}
+body{
+    background-color:#a7a8cd ;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card{
+    border-radius: 20px;
+    width: 500px;
+    height: 450px;
+    /* margin: auto; */
+    background-color: #ffffff;
+    
+}
+.card-image{
+    width: 500px;
+    height: 257px;
+}
+img{
+    border-radius:20px 20px 0px 0px;
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    position: relative;
+}
+.card-head{
+    position: absolute;
+    top: 25%;
+    left: 29.55%;
+    background-color: #fdf2b4;
+    padding: 3px;
+    width: 225px;
+    border-radius: 5px 20px 20px 5px;
+}
+@font-face {
+    src: url("https://mdn.github.io/shared-assets/fonts/LeagueMono-VF.ttf");
+    font-family: "LeagueMonoVariable";
+    font-weight: 700;
+}
+h3, 
+.card-text > h2
+{
+  font:1.2rem "LeagueMonoVariable", sans-serif;
+  
+}
+.expanded,
+.card-text > .expanded
+{
+  font-stretch: 95%;
+}
+.expanded{
+    padding-left: 10px;
+}
+.card-text > .expanded
+{
+  padding-left: 21px;
+}
+.card-text{
+    display: flex;
+   align-items: center;
+ padding-top: 17px;
+}
+.card-text > .para{
+    color: #747474;
+    padding-left: 15px;
+}
+.text > .cont
+{
+  padding:  30px 15px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  line-height: 1.4;
+}
