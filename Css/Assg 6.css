@@ -4,22 +4,22 @@
 }
 @font-face {
     font-family: myFont-bold;
-    src: url(../gilroy-bold-webfont/Gilroy-Bold.woff);
+    src: url(../assets/gilroy-bold-webfont/Gilroy-Bold.woff);
    
 }
 @font-face {
     font-family: myFont-medium;
-    src: url(../gilroy-bold-webfont/Gilroy-Medium.woff);
+    src: url(../assets/gilroy-bold-webfont/Gilroy-Medium.woff);
    
 }
 @font-face {
     font-family: myFont-heavy;
-    src: url(../gilroy-bold-webfont/Gilroy-Heavy.woff);
+    src: url(../assets/gilroy-bold-webfont/Gilroy-Heavy.woff);
    
 }
 @font-face {
     font-family: myFont-semibold;
-    src: url(../gilroy-bold-webfont/gilroy-semi-bold.ttf);
+    src: url(../assets/gilroy-bold-webfont/gilroy-semi-bold.ttf);
    
 }
 *{
@@ -194,7 +194,7 @@ nav .nav-2 ul .dropdown:hover>.sub {
     position: relative;
  }
  main .main-1>h1>span::after{
-    content: url('../Images/Vector\ 3.png');
+    content: url('../assets/Images/Vector\ 3.png');
     position: absolute;
     top: 5%;
     left: 20%;
